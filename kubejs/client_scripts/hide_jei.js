@@ -8,4 +8,5 @@ RecipeViewerEvents.removeEntries('item', event => {
     event.remove('minecraft:mangrove_chest_boat')
     event.remove('minecraft:cherry_chest_boat')
     event.remove('minecraft:bamboo_chest_raft')
+    event.remove('minecraft:bamboo_raft')
 })

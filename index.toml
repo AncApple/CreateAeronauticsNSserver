@@ -2,7 +2,7 @@ hash-format = "sha256"
 
 [[files]]
 file = "kubejs/client_scripts/hide_jei.js"
-hash = "1edebbff858d504a40f4ef6c2370b9ea00345bb90649746aae2cde688e403d18"
+hash = "57840e91429d231b13ffd00c0a059027ad29e6d741ad1c59762d561e0dec5b80"
 
 [[files]]
 file = "kubejs/server_scripts/disable_boats.js"

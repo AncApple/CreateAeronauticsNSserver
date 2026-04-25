@@ -1,13 +1,11 @@
-JEIEvents.hideItems(event => {
-    event.hide([
-        'minecraft:oak_chest_boat',
-        'minecraft:spruce_chest_boat',
-        'minecraft:birch_chest_boat',
-        'minecraft:jungle_chest_boat',
-        'minecraft:acacia_chest_boat',
-        'minecraft:dark_oak_chest_boat',
-        'minecraft:mangrove_chest_boat',
-        'minecraft:cherry_chest_boat',
-        'minecraft:bamboo_chest_raft'
-    ])
+RecipeViewerEvents.removeEntries('item', event => {
+    event.remove('minecraft:oak_chest_boat')
+    event.remove('minecraft:spruce_chest_boat')
+    event.remove('minecraft:birch_chest_boat')
+    event.remove('minecraft:jungle_chest_boat')
+    event.remove('minecraft:acacia_chest_boat')
+    event.remove('minecraft:dark_oak_chest_boat')
+    event.remove('minecraft:mangrove_chest_boat')
+    event.remove('minecraft:cherry_chest_boat')
+    event.remove('minecraft:bamboo_chest_raft')
 })

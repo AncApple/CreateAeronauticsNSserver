@@ -33,6 +33,10 @@ packwiz modrinth export
 - `mods/*.pw.toml` — 各モッドの定義ファイル（Modrinth URL・ハッシュ・side）
 - `.packwizignore` — `index.toml` への自動追加から除外するファイルのパターン（.gitignore 形式）
 
+## KubeJS
+
+KubeJS に関して不明点や迷った場合は、必ず https://kubejs.com/wiki/ を参照して情報を収集すること。
+
 ## Important Notes
 
 - `index.toml` と `pack.toml` の `hash` は `packwiz refresh` / `packwiz update` が自動更新するため直接編集しない。

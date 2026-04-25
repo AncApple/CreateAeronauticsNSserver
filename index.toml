@@ -1,6 +1,10 @@
 hash-format = "sha256"
 
 [[files]]
+file = ".github/workflows/static.yml"
+hash = "f2d965580744ee9ee893f4f5de6017da9d55a5850b86fc4c47dc138db7b8bcb4"
+
+[[files]]
 file = "mods/3dskinlayers.pw.toml"
 hash = "82becc6910845ae1a68884e6f7a3dcdc861d79a087ae81b1d7e120e82884372d"
 metafile = true
@@ -188,9 +192,4 @@ metafile = true
 [[files]]
 file = "mods/wwoo.pw.toml"
 hash = "1960c304ef7e5eb391934e0c102fd3346afe586cd5df5efb0cd7235e0a583634"
-metafile = true
-
-[[files]]
-file = "resourcepacks/create-mod-panorama.pw.toml"
-hash = "94b1e300bb20cf49d0d88a18089dab463c7ae0d6071ef3bc6547a43ff9458818"
 metafile = true

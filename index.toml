@@ -145,6 +145,11 @@ hash = "e8100d935e20369ed13b31ea2423482eadd4c8ed123fd8e77320b12fa883dbb6"
 metafile = true
 
 [[files]]
+file = "mods/protection-pixel.pw.toml"
+hash = "34cd5811ecc59af578b9ec108b9b379a6c60046477182305608312240847ee2b"
+metafile = true
+
+[[files]]
 file = "mods/sable.pw.toml"
 hash = "735f0a8e564e8c80c282a7ba97fe77c34edec0402883f7154fd0206572537afe"
 metafile = true

@@ -2,7 +2,7 @@ hash-format = "sha256"
 
 [[files]]
 file = "kubejs/server_scripts/disable_boats.js"
-hash = "c32cdb9e9ff168d67645123f4285a24fff756a1e8758e1d17453d63ae0e91f2e"
+hash = "dfc64d0e9d8aa9279e617af59ab1afdc8dabed8babf981c8cb72934272617fc5"
 
 [[files]]
 file = "mods/3dskinlayers.pw.toml"

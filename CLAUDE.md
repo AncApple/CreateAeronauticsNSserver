@@ -38,3 +38,4 @@ packwiz modrinth export
 - `index.toml` と `pack.toml` の `hash` は `packwiz refresh` / `packwiz update` が自動更新するため直接編集しない。
 - モッドの `side` フィールドは `both` / `client` / `server` のいずれか。クライアント専用 mod（見た目系）は `client` に設定する。
 - `.packwizignore` に除外パターンを追加した後は `packwiz refresh` を実行してインデックスを反映させること。
+- **ファイルの追加・編集・削除を伴う作業が完了したら、必ず `packwiz refresh` を実行してインデックスを最新状態に保つこと。**

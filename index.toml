@@ -80,11 +80,6 @@ hash = "1610d7be42535a16971fe825983ee45af77dcbba37b37e75d5fa7f4d96cb3801"
 metafile = true
 
 [[files]]
-file = "mods/expanded-ecosphere.pw.toml"
-hash = "076c24701ba1a642d825c78206eb9ebcba33cc65cd2fc4a17b4e7494251f9bff"
-metafile = true
-
-[[files]]
 file = "mods/ferrite-core.pw.toml"
 hash = "73360e397134d238ee8fd21d33fd7f9275e9441f74f8f1b6ed92278877c0b9f1"
 metafile = true
@@ -200,6 +195,11 @@ hash = "593fa7b30ab016aa45be07bd6bef3a9f160ed0f24689850d60bf84995d69b843"
 metafile = true
 
 [[files]]
+file = "mods/terralith.pw.toml"
+hash = "da7ee99189ad35aac094919fe33cac647d98533b23c228f10d4811f08989e2b8"
+metafile = true
+
+[[files]]
 file = "mods/trade-cycling.pw.toml"
 hash = "1ce973c231d9d6a7e788f5a2eb0797a0f5b8beef318d70f97931309ff7ef9abe"
 metafile = true
@@ -215,6 +215,5 @@ hash = "9ce52d07c0c3d146a2a44f8bc187138ce7a5558a4e3ab540c86234702b6de274"
 metafile = true
 
 [[files]]
-file = "mods/wwoo.pw.toml"
-hash = "1960c304ef7e5eb391934e0c102fd3346afe586cd5df5efb0cd7235e0a583634"
-metafile = true
+file = "readme.md"
+hash = "f210982f842822a26ee3bfda33af3b920bb9f92aec836747309413e690f54029"

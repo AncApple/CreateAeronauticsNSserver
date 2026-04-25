@@ -5,10 +5,8 @@ ServerEvents.recipes(event => {
 })
 
 // ボートアイテムの右クリック使用をキャンセル
-ItemEvents.rightClicked('#minecraft:boats', event => {
-    event.cancel()
-})
-
-ItemEvents.rightClicked('#minecraft:chest_boats', event => {
-    event.cancel()
+ItemEvents.rightClicked(event => {
+    if (event.item.hasTag('minecraft:boats') || event.item.hasTag('minecraft:chest_boats')) {
+        event.cancel()
+    }
 })

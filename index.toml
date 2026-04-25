@@ -1,6 +1,10 @@
 hash-format = "sha256"
 
 [[files]]
+file = "kubejs/client_scripts/hide_jei.js"
+hash = "1edebbff858d504a40f4ef6c2370b9ea00345bb90649746aae2cde688e403d18"
+
+[[files]]
 file = "kubejs/server_scripts/disable_boats.js"
 hash = "dfc64d0e9d8aa9279e617af59ab1afdc8dabed8babf981c8cb72934272617fc5"
 

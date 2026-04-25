@@ -140,6 +140,11 @@ hash = "6bc414cc0f2d4c078fe83f384d786343f701f371d657c5279b5b0df1595804bd"
 metafile = true
 
 [[files]]
+file = "mods/noisium.pw.toml"
+hash = "d424a9260ef51bc102e56f0423d91dfabb739ccca8a86eb1c450ea631b739280"
+metafile = true
+
+[[files]]
 file = "mods/notenoughrecipebook.pw.toml"
 hash = "6df80014ec12832c5627e60f7c916e0cb8a9d8dbb3f7c4ff863de3a6e39957aa"
 metafile = true

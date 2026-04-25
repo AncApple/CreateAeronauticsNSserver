@@ -35,11 +35,6 @@ hash = "74f3358e1070f1163d14cb62ee768a389bd758f36b5c21471910e43fbcfacc9e"
 metafile = true
 
 [[files]]
-file = "mods/create-backpack-pixel.pw.toml"
-hash = "1ada18c0de36b988c2efb8df1662591589dd1a8f893d75060b7b30d62e9850dd"
-metafile = true
-
-[[files]]
 file = "mods/create-dynamic-lights.pw.toml"
 hash = "56ff7fa56eb6ae7d32cdd1f7ce84022d1ed25b416dd9142572ef0d2360d49ec9"
 metafile = true
@@ -142,11 +137,6 @@ metafile = true
 [[files]]
 file = "mods/octo-lib.pw.toml"
 hash = "e8100d935e20369ed13b31ea2423482eadd4c8ed123fd8e77320b12fa883dbb6"
-metafile = true
-
-[[files]]
-file = "mods/protection-pixel.pw.toml"
-hash = "34cd5811ecc59af578b9ec108b9b379a6c60046477182305608312240847ee2b"
 metafile = true
 
 [[files]]

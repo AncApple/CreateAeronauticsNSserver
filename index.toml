@@ -18,11 +18,6 @@ hash = "82becc6910845ae1a68884e6f7a3dcdc861d79a087ae81b1d7e120e82884372d"
 metafile = true
 
 [[files]]
-file = "mods/aetherial-islands.pw.toml"
-hash = "07735cfeaea8f9d4532a6ca653fa3b4fc83ed2d7f16fff96ac2741a8c37f12a8"
-metafile = true
-
-[[files]]
 file = "mods/architectury-api.pw.toml"
 hash = "ea336d25c3e21ef168aec20e1ea470c96949ad29632646ee8e8ab0d74b4bbfc9"
 metafile = true
@@ -73,6 +68,11 @@ hash = "74f3358e1070f1163d14cb62ee768a389bd758f36b5c21471910e43fbcfacc9e"
 metafile = true
 
 [[files]]
+file = "mods/create-big-cannons.pw.toml"
+hash = "c0ce5acc926fd747135f330cb3e53b847e5c05ed950b96f7cbe0d1159aefa285"
+metafile = true
+
+[[files]]
 file = "mods/create-dynamic-lights.pw.toml"
 hash = "56ff7fa56eb6ae7d32cdd1f7ce84022d1ed25b416dd9142572ef0d2360d49ec9"
 metafile = true
@@ -80,6 +80,11 @@ metafile = true
 [[files]]
 file = "mods/create-power-loader.pw.toml"
 hash = "ee76dbe108ebf5cf68047f60ecabee5aeb029015253dc82c007b941a6d6cfcdf"
+metafile = true
+
+[[files]]
+file = "mods/create-sky-village.pw.toml"
+hash = "0828559c7bd99952b04a88f51726f2bcc846d7f480f71e55890f37650277a829"
 metafile = true
 
 [[files]]
@@ -158,6 +163,11 @@ hash = "e8c20c0c77e5df58d1386d8190ee16a957d78d62d361469db0b0c29458bf1e84"
 metafile = true
 
 [[files]]
+file = "mods/lithostitched.pw.toml"
+hash = "43908d26ef77cc78e08ba2edae2ca63a56d7da415ff48c61e485c46edeacefeb"
+metafile = true
+
+[[files]]
 file = "mods/lukis-grand-capitals.pw.toml"
 hash = "2fe01d8046db2246c6df01eedd1fbc7837c08cc6d3b2a9017107ade989e86a28"
 metafile = true
@@ -208,8 +218,18 @@ hash = "09306b955060349986ccf6a6d2a67f1e019fa172a7dc690dd6007f81c966309a"
 metafile = true
 
 [[files]]
+file = "mods/repurposed-structures-forge.pw.toml"
+hash = "91fc6aa751da80c2951106b582d45508b7cbe1d2ea54458beac85d1337029c1c"
+metafile = true
+
+[[files]]
 file = "mods/rhino.pw.toml"
 hash = "6b91f46291891e725189b0bd54d0db0f66925b1e785bdfa737592dfcf41a79a3"
+metafile = true
+
+[[files]]
+file = "mods/rpl.pw.toml"
+hash = "7815e5a589de0c02a62ae83590e1f75f4d0c269e48f2435ce2ac448976ddf49f"
 metafile = true
 
 [[files]]
@@ -225,6 +245,11 @@ metafile = true
 [[files]]
 file = "mods/simple-weather.pw.toml"
 hash = "dfc63ca5e9385bae05026c0de9bd1b6a0655285c2fdddef1ba1aeb7d1af3d93a"
+metafile = true
+
+[[files]]
+file = "mods/sky-villages.pw.toml"
+hash = "3c88d13ec3f4c2904befee38aa1a4fc27ffb0c322fb4186d82a53179125e43d1"
 metafile = true
 
 [[files]]
@@ -260,6 +285,16 @@ metafile = true
 [[files]]
 file = "mods/spark.pw.toml"
 hash = "593fa7b30ab016aa45be07bd6bef3a9f160ed0f24689850d60bf84995d69b843"
+metafile = true
+
+[[files]]
+file = "mods/tectonic.pw.toml"
+hash = "cd5c8c1f6183f5c2ca899daed14f272890566002dfcb2d9f9a59dfbfac0bc8f6"
+metafile = true
+
+[[files]]
+file = "mods/terralith.pw.toml"
+hash = "da7ee99189ad35aac094919fe33cac647d98533b23c228f10d4811f08989e2b8"
 metafile = true
 
 [[files]]

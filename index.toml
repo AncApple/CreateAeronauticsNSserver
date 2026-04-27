@@ -1,6 +1,10 @@
 hash-format = "sha256"
 
 [[files]]
+file = "defaultconfigs/sophisticatedbackpacks-server.toml"
+hash = "90dfc662517d67944e114f3ae996ecae6fd86f24be5986efbc35fdd36a6d303c"
+
+[[files]]
 file = "kubejs/client_scripts/hide_jei.js"
 hash = "8c9d84b8f030178d0d1a8e5d754ee912ec79456806b6ec883d1433aa7e581836"
 
@@ -11,6 +15,11 @@ hash = "dfc64d0e9d8aa9279e617af59ab1afdc8dabed8babf981c8cb72934272617fc5"
 [[files]]
 file = "mods/3dskinlayers.pw.toml"
 hash = "82becc6910845ae1a68884e6f7a3dcdc861d79a087ae81b1d7e120e82884372d"
+metafile = true
+
+[[files]]
+file = "mods/aetherial-islands.pw.toml"
+hash = "07735cfeaea8f9d4532a6ca653fa3b4fc83ed2d7f16fff96ac2741a8c37f12a8"
 metafile = true
 
 [[files]]
@@ -239,13 +248,18 @@ hash = "0281ed9713f3141bdac363056a791845510e14761ea65b4b2813cf96d664b20a"
 metafile = true
 
 [[files]]
-file = "mods/spark.pw.toml"
-hash = "593fa7b30ab016aa45be07bd6bef3a9f160ed0f24689850d60bf84995d69b843"
+file = "mods/sophisticated-backpacks.pw.toml"
+hash = "e8c3f829458b16691508fe87672d7e70c73fac15663bbebfb9829efd2521fa24"
 metafile = true
 
 [[files]]
-file = "mods/terralith.pw.toml"
-hash = "da7ee99189ad35aac094919fe33cac647d98533b23c228f10d4811f08989e2b8"
+file = "mods/sophisticated-core.pw.toml"
+hash = "23c31613960c38bc67da32c6dcd7e611d6a61bff225739ae87ccdaa7ef6fa1c1"
+metafile = true
+
+[[files]]
+file = "mods/spark.pw.toml"
+hash = "593fa7b30ab016aa45be07bd6bef3a9f160ed0f24689850d60bf84995d69b843"
 metafile = true
 
 [[files]]

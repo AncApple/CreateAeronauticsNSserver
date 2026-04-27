@@ -154,6 +154,11 @@ hash = "e8c20c0c77e5df58d1386d8190ee16a957d78d62d361469db0b0c29458bf1e84"
 metafile = true
 
 [[files]]
+file = "mods/lithostitched.pw.toml"
+hash = "89ffd1297ebc4b0ac4773a5b9483f765c5cfe3fa034767da61129820c47de965"
+metafile = true
+
+[[files]]
 file = "mods/lukis-grand-capitals.pw.toml"
 hash = "2fe01d8046db2246c6df01eedd1fbc7837c08cc6d3b2a9017107ade989e86a28"
 metafile = true

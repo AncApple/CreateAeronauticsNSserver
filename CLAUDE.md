@@ -50,42 +50,79 @@ packwiz modrinth export
 - `mods/*.pw.toml` — 各モッドの定義ファイル（Modrinth URL・ハッシュ・side）
 - `.packwizignore` — `index.toml` への自動追加から除外するファイルのパターン（.gitignore 形式）
 
-## KubeJSの書き方ルール
+## KubeJS 編集ガイド
 
-KubeJS に関して不明点や迷った場合は、必ず https://kubejs.com/wiki/ を参照して情報を収集すること。
+### 対象バージョン
+- Minecraft: **1.21.1**
+- KubeJS: **2101.7.2** (NeoForge 21.1.x)
+- これ以外のバージョンの情報は **使わない**。
 
-### 基本構文（1.21対応）
-```javascript
-// server_scripts/example.js
-ServerEvents.recipes(event => {
-    // レシピ追加
-    event.shaped('minecraft:diamond', [
-        'AAA',
-        'A A',
-        'AAA'
-    ], {
-        A: 'minecraft:dirt'
-    });
+### 情報源の優先順位 (厳守)
 
-    // レシピ削除
-    event.remove({ output: 'minecraft:torch' });
-});
-```
+1. **`docs/` 配下のファイルのみを情報源とする。**
+2. **不明点があっても WebSearch / WebFetch / 学習済み知識で補完しない。**
+   - docs に書かれていない API・記法・挙動は「docs に記載なし」と明示し、
+     ユーザーに確認する。推測で書かない。
+3. KubeJS 公式 Wiki、GitHub Issue、ブログ、Stack Overflow 等の外部情報源は
+   ユーザーが明示的に許可した場合のみ参照する。
 
-### startup_scripts（アイテム登録など）
-```javascript
-StartupEvents.registry('item', event => {
-    event.create('kubejs:custom_item')
-        .displayName('Custom Item')
-        .tooltip('説明文');
-});
-```
+### 検索の入り口
 
-### よく使うイベント
-- `ServerEvents.recipes` - レシピ追加・削除
-- `ServerEvents.tags` - タグ操作
-- `ItemEvents.tooltip` - ツールチップ追加
-- `BlockEvents.rightClicked` - ブロック右クリック処理
+KubeJS 関連のタスクを受けたら、最初に以下を必ず読む:
+
+1. `docs/_meta/MACHINE_INDEX.md` — ページ索引・ディレクトリ構造・パッケージマップ
+2. 索引から該当ページを特定し、そのページ全体を読む
+
+MACHINE_INDEX の `pages:` セクションは slug / file / topics で引ける。
+タスクのキーワードを `topics:` と照合してページを選ぶ。
+
+### ページの読み方
+
+各ページは2層構造:
+
+- **`kjs-event` / `kjs-method` / `kjs-type` のコードブロック** = 機械可読 API 定義。
+  シグネチャ・引数型・戻り値・キャンセル可否などの **正準情報**。実装判断はここを根拠にする。
+- **散文部分** = 人間向け解説・例・「よくある間違い」。
+  コード例の文脈やパターンを掴むために読む。
+
+機械可読ブロックと散文が矛盾した場合は **機械可読ブロックを優先**。
+
+### 作業フロー
+
+1. **計画**: ユーザーの依頼を MACHINE_INDEX の `topics:` と突き合わせ、
+   読むべきページを列挙する。複数ページにまたがる場合はすべて読む。
+2. **実装**: 該当ページの機械可読ブロックを根拠にコードを書く。
+   docs に無い API は使わない。
+3. **検証前の自己チェック**:
+   - 使った API はすべて docs のいずれかのページに登場したか？
+   - スクリプト配置先 (`startup_scripts/` / `server_scripts/` / `client_scripts/`) は
+     ページ記載通りか？
+   - バージョンは 1.21.1 / KubeJS 2101.x の API か？
+
+### docs に情報が無いとき
+
+以下の対応を取る (この順):
+
+1. MACHINE_INDEX の `package_map:` を見て、関連 Java ソースのパスを確認する
+   (ただしソース閲覧はユーザーに環境がある前提で、勝手に clone しない)
+2. それでも分からない場合、**推測せずユーザーに質問する**:
+   - 「`<API名>` は docs に記載がありません。
+     使い方をご存知ですか? あるいは別のアプローチを取りますか?」
+
+### やってはいけないこと
+
+- ❌ docs に無い API を「たぶんこう書ける」で書く
+- ❌ 1.20.1 / 1.19.2 等の古いバージョンの記法を混ぜる
+  (例: 旧 NBT 記法 `{Damage:5}` を 1.21.1 で使う)
+- ❌ "KubeJS Wiki によると..." のような外部情報の引用
+- ❌ MACHINE_INDEX を読まずに `docs/` 配下を grep で探索しはじめる
+  (索引を経由したほうが速い)
+
+### ファイル名規約
+
+docs 配下のファイル名・ディレクトリ名は **ASCII のみ** (Windows 11 互換)。
+新規ページを作る場合もこの規約を守る。
+
 
 ---
 
@@ -99,5 +136,4 @@ StartupEvents.registry('item', event => {
 ## 参考リンク
 
 - [Packwiz公式ドキュメント](https://packwiz.infra.link/)
-- [KubeJS Wiki](https://kubejs.com/wiki)
 - [NeoForge公式](https://neoforged.net/)

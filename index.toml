@@ -161,10 +161,6 @@ file = "defaultconfigs/sophisticatedbackpacks-server.toml"
 hash = "90dfc662517d67944e114f3ae996ecae6fd86f24be5986efbc35fdd36a6d303c"
 
 [[files]]
-file = "global_packs/required_data/aerial-near-spawn.zip"
-hash = "9b10f89503d592fba9308f1c9f41ef52dc4aeb76b25b242458130d3ffe6de388"
-
-[[files]]
 file = "kubejs/client_scripts/hide_jei.js"
 hash = "8c9d84b8f030178d0d1a8e5d754ee912ec79456806b6ec883d1433aa7e581836"
 
@@ -250,11 +246,6 @@ metafile = true
 [[files]]
 file = "mods/create-sky-village.pw.toml"
 hash = "0828559c7bd99952b04a88f51726f2bcc846d7f480f71e55890f37650277a829"
-metafile = true
-
-[[files]]
-file = "mods/create-steam-n-rails-1.21.1.pw.toml"
-hash = "104581a7f2a0b1c164399d278675f68701a2147db5a895188298e049d14dcea9"
 metafile = true
 
 [[files]]

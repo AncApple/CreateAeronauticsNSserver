@@ -161,6 +161,10 @@ file = "defaultconfigs/sophisticatedbackpacks-server.toml"
 hash = "90dfc662517d67944e114f3ae996ecae6fd86f24be5986efbc35fdd36a6d303c"
 
 [[files]]
+file = "global_packs/required_data/aerial-near-spawn.zip"
+hash = "9b10f89503d592fba9308f1c9f41ef52dc4aeb76b25b242458130d3ffe6de388"
+
+[[files]]
 file = "kubejs/client_scripts/hide_jei.js"
 hash = "8c9d84b8f030178d0d1a8e5d754ee912ec79456806b6ec883d1433aa7e581836"
 

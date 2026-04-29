@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "mss:muddy_water_hole",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "moogs_structures:advanced_random_spread",
+    "salt": 995843475,
+    "spacing": 22,
+    "separation": 9
+  }
+}

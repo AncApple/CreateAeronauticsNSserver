@@ -1,3 +1,4 @@
 *.zip
 *.mrpack
 docs/*
+!global_packs/**/*.zip

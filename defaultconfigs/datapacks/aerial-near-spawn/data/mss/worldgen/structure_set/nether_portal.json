@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "mss:nether_portal",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "moogs_structures:advanced_random_spread",
+    "salt": 889985412,
+    "spacing": 22,
+    "separation": 9
+  }
+}

@@ -1,8 +1,168 @@
 hash-format = "sha256"
 
 [[files]]
+file = "defaultconfigs/datapacks/aerial-near-spawn/data/create_sky_village/worldgen/structure_set/highwind_village.json"
+hash = "57d00647cab7ff192ca631dd7a6628e60a1778e8b5e629de9413d88b3104eb92"
+
+[[files]]
+file = "defaultconfigs/datapacks/aerial-near-spawn/data/create_sky_village/worldgen/structure_set/skyvillage.json"
+hash = "bc4edb274a6b29892a18a0bcd1a39fc75c26c69f2ad52df33e07ceba96a9b580"
+
+[[files]]
+file = "defaultconfigs/datapacks/aerial-near-spawn/data/mss/worldgen/structure_set/arena.json"
+hash = "8ad3afeb76e93899cec70ed05c92844df2039ad073f4191ab700446e2ba8a89d"
+
+[[files]]
+file = "defaultconfigs/datapacks/aerial-near-spawn/data/mss/worldgen/structure_set/birch_river.json"
+hash = "5b50b67be944a8984224a5f1e5b297a126b2d5f9c11b012b22b42e4b28edbb94"
+
+[[files]]
+file = "defaultconfigs/datapacks/aerial-near-spawn/data/mss/worldgen/structure_set/calcite_house.json"
+hash = "74e89d53702b4628d80a8baeb4a4929216f943e08a51e52524486aaf6e48669a"
+
+[[files]]
+file = "defaultconfigs/datapacks/aerial-near-spawn/data/mss/worldgen/structure_set/castle_ruin.json"
+hash = "ab8459d2fa294a196ae2f6c895f8e74850e115f75bd12c586206ea36410e7eb5"
+
+[[files]]
+file = "defaultconfigs/datapacks/aerial-near-spawn/data/mss/worldgen/structure_set/castle_tower.json"
+hash = "94085fcfaf51c1b833c50511ca71b93597a0ac54f302c88216bdba4502f5209d"
+
+[[files]]
+file = "defaultconfigs/datapacks/aerial-near-spawn/data/mss/worldgen/structure_set/cherry_river.json"
+hash = "ce36628e07428884b0f2af281af4b7ce2233b0ae40502424ad59a44d04861577"
+
+[[files]]
+file = "defaultconfigs/datapacks/aerial-near-spawn/data/mss/worldgen/structure_set/desert_pyramid.json"
+hash = "9bb0f9c1768740297b19ce70d15cf8adab5ed112d5a8a578af29625019254fb1"
+
+[[files]]
+file = "defaultconfigs/datapacks/aerial-near-spawn/data/mss/worldgen/structure_set/desert_well.json"
+hash = "079636f91e7892f71206f5d83091f2992729cef79496f5ef2fc9f60fdaa6755d"
+
+[[files]]
+file = "defaultconfigs/datapacks/aerial-near-spawn/data/mss/worldgen/structure_set/diorite_house.json"
+hash = "8a9a55ea47399d99daed166246b597c9255ea67555ffb9e2cc4e6bea04d86cde"
+
+[[files]]
+file = "defaultconfigs/datapacks/aerial-near-spawn/data/mss/worldgen/structure_set/frozen_pond.json"
+hash = "0a2eeebd881b74befcbc7daf5b50e84cb0d3a56b1397500b2788dcd6a5d021aa"
+
+[[files]]
+file = "defaultconfigs/datapacks/aerial-near-spawn/data/mss/worldgen/structure_set/jungle.json"
+hash = "ef094add62af3b10c83a45c4a5550f0a278e2ff3dbb79787f3f9f81908931356"
+
+[[files]]
+file = "defaultconfigs/datapacks/aerial-near-spawn/data/mss/worldgen/structure_set/large_tower.json"
+hash = "7804c172f3a885e5cfe470260c362ba6fb9647f3b9f9b6beec2a1c4641d75775"
+
+[[files]]
+file = "defaultconfigs/datapacks/aerial-near-spawn/data/mss/worldgen/structure_set/leaf_hollow.json"
+hash = "1aa5f7f249a6a88f709d39c02ae981ced565259005abf9eca6fb69c363147f26"
+
+[[files]]
+file = "defaultconfigs/datapacks/aerial-near-spawn/data/mss/worldgen/structure_set/mangrove.json"
+hash = "8ff430a27c4f5a6c2183afed1dcf8887e2fe664b019a24693fa82b1415d1af2c"
+
+[[files]]
+file = "defaultconfigs/datapacks/aerial-near-spawn/data/mss/worldgen/structure_set/muddy_water_hole.json"
+hash = "f20619888b5187632d243a99647e9c9517fe712e5a73210c9abd5a518c1763a7"
+
+[[files]]
+file = "defaultconfigs/datapacks/aerial-near-spawn/data/mss/worldgen/structure_set/mushroom.json"
+hash = "5841879f0c6e42d2251bf65c28d6ea122620e64eee6d7ed4727cabd9938c493f"
+
+[[files]]
+file = "defaultconfigs/datapacks/aerial-near-spawn/data/mss/worldgen/structure_set/nether_portal.json"
+hash = "a29e770596488b59393b32e7556a70c577ec0aae4ab65cabcad07e507f7f6364"
+
+[[files]]
+file = "defaultconfigs/datapacks/aerial-near-spawn/data/mss/worldgen/structure_set/palm_island.json"
+hash = "8a1c5aef040aacd21144217f4a8a52d4f888e66d0b0778a2d02c500c80dfdcd5"
+
+[[files]]
+file = "defaultconfigs/datapacks/aerial-near-spawn/data/mss/worldgen/structure_set/red_sand.json"
+hash = "a9256987c9962d912c6d468118855503e0052bc16349a928efea9e9169d9df88"
+
+[[files]]
+file = "defaultconfigs/datapacks/aerial-near-spawn/data/mss/worldgen/structure_set/small_deepslate_house.json"
+hash = "4aceb8c9a291073a5daaeaf301e34c48f3d66e9df906421913841beb88bf617f"
+
+[[files]]
+file = "defaultconfigs/datapacks/aerial-near-spawn/data/mss/worldgen/structure_set/small_oak_house.json"
+hash = "44c299771fb87a1144a84e49644334352e704754527d02dc92281fbbedf8207e"
+
+[[files]]
+file = "defaultconfigs/datapacks/aerial-near-spawn/data/mss/worldgen/structure_set/small_pond.json"
+hash = "572e18cb33f47b077a3018591fd1187b4fa2b488023154417416df0b68f65904"
+
+[[files]]
+file = "defaultconfigs/datapacks/aerial-near-spawn/data/mss/worldgen/structure_set/small_tower.json"
+hash = "95f343ec50907f069f555ebd7721de7318a3d7602acd78612441bffabedf1b4b"
+
+[[files]]
+file = "defaultconfigs/datapacks/aerial-near-spawn/data/mss/worldgen/structure_set/spruce_huts.json"
+hash = "89f8a922fa92cc532c68715612e57d7119bf8556cae054ba741462b69c7149c7"
+
+[[files]]
+file = "defaultconfigs/datapacks/aerial-near-spawn/data/mss/worldgen/structure_set/taiga.json"
+hash = "0ec325d690f2dc84e2012113165d2626ab7b6e54a12c66328a4b16f1c145bbf5"
+
+[[files]]
+file = "defaultconfigs/datapacks/aerial-near-spawn/data/mss/worldgen/structure_set/tree_1.json"
+hash = "b39e5d879c6865e89bd24aa0b188bbc467b9331de9052c3e50e0887a29889861"
+
+[[files]]
+file = "defaultconfigs/datapacks/aerial-near-spawn/data/mss/worldgen/structure_set/tree_2.json"
+hash = "869a68479d249a7f030ab12ddbee3799b8f06ec0c2c67072ccbd791ab91182d9"
+
+[[files]]
+file = "defaultconfigs/datapacks/aerial-near-spawn/data/mss/worldgen/structure_set/tree_3.json"
+hash = "71ede7cfcdb1e6a09367a029e2171d7d81ed1c3c8020b1711be6d5dc2581d2d8"
+
+[[files]]
+file = "defaultconfigs/datapacks/aerial-near-spawn/data/mss/worldgen/structure_set/tree_4.json"
+hash = "1351b0f0a3491f63fad54d9ff9620c4c5d287465f654d6c4883cf7b0753a09d6"
+
+[[files]]
+file = "defaultconfigs/datapacks/aerial-near-spawn/data/mss/worldgen/structure_set/tree_5.json"
+hash = "00d9b92137c599d41d143ec591e4a6dad8798408bba3d16912315b82e25f0581"
+
+[[files]]
+file = "defaultconfigs/datapacks/aerial-near-spawn/data/mss/worldgen/structure_set/tree_6.json"
+hash = "aecae2e0cec7c4f70a2875ef9634424e68ccfb57939ea5ffedf6a43971227479"
+
+[[files]]
+file = "defaultconfigs/datapacks/aerial-near-spawn/data/mss/worldgen/structure_set/tree_7.json"
+hash = "e8e9dc09585891f70df3ac16aab05435e9e07d883bf9ef57d477c82298867b63"
+
+[[files]]
+file = "defaultconfigs/datapacks/aerial-near-spawn/data/mss/worldgen/structure_set/tree_8.json"
+hash = "d8c1e86233112ccbca2c4cec0006014f9888f0275ce07c1718b10bbd0b4e881d"
+
+[[files]]
+file = "defaultconfigs/datapacks/aerial-near-spawn/data/mss/worldgen/structure_set/volcano.json"
+hash = "270ec5045d9ad784eae19876e0cc9e4cd7af28acda714d1ddf6bc571c224e187"
+
+[[files]]
+file = "defaultconfigs/datapacks/aerial-near-spawn/data/mss/worldgen/structure_set/white_house.json"
+hash = "574a500bf5c19e26ee8f717d64399e91a9d443764f5d8f23806bc44d2521d9ae"
+
+[[files]]
+file = "defaultconfigs/datapacks/aerial-near-spawn/data/skyvillages/worldgen/structure_set/skyvillage.json"
+hash = "134a02ecc20f92b01793356569ac69047b1394ab88fb6776ab5e30295b1e07ea"
+
+[[files]]
+file = "defaultconfigs/datapacks/aerial-near-spawn/pack.mcmeta"
+hash = "257d528ae963d5bfe1cd57ccb6c9c54acd9efa1d2dede1675c611e2d6e7a68c8"
+
+[[files]]
 file = "defaultconfigs/sophisticatedbackpacks-server.toml"
 hash = "90dfc662517d67944e114f3ae996ecae6fd86f24be5986efbc35fdd36a6d303c"
+
+[[files]]
+file = "global_packs/required_data/aerial-near-spawn.zip"
+hash = "9b10f89503d592fba9308f1c9f41ef52dc4aeb76b25b242458130d3ffe6de388"
 
 [[files]]
 file = "kubejs/client_scripts/hide_jei.js"
@@ -15,6 +175,11 @@ hash = "dfc64d0e9d8aa9279e617af59ab1afdc8dabed8babf981c8cb72934272617fc5"
 [[files]]
 file = "mods/3dskinlayers.pw.toml"
 hash = "82becc6910845ae1a68884e6f7a3dcdc861d79a087ae81b1d7e120e82884372d"
+metafile = true
+
+[[files]]
+file = "mods/appleskin.pw.toml"
+hash = "716d930feff599bf9ce732e05979fbae8025dc8a3c13ccf4f1cb207a70883bc6"
 metafile = true
 
 [[files]]
@@ -69,7 +234,7 @@ metafile = true
 
 [[files]]
 file = "mods/create-aeronautics.pw.toml"
-hash = "74f3358e1070f1163d14cb62ee768a389bd758f36b5c21471910e43fbcfacc9e"
+hash = "6ea6284b569b13f45bfe44f9790389de4a2f7cda92c8b3bb94511b600d64c486"
 metafile = true
 
 [[files]]
@@ -79,12 +244,17 @@ metafile = true
 
 [[files]]
 file = "mods/create-power-loader.pw.toml"
-hash = "ee76dbe108ebf5cf68047f60ecabee5aeb029015253dc82c007b941a6d6cfcdf"
+hash = "703c2d475167e08d77254c8944e2971899603cce61e4c87f870095386c725c74"
 metafile = true
 
 [[files]]
 file = "mods/create-sky-village.pw.toml"
 hash = "0828559c7bd99952b04a88f51726f2bcc846d7f480f71e55890f37650277a829"
+metafile = true
+
+[[files]]
+file = "mods/create-steam-n-rails-1.21.1.pw.toml"
+hash = "104581a7f2a0b1c164399d278675f68701a2147db5a895188298e049d14dcea9"
 metafile = true
 
 [[files]]
@@ -120,6 +290,11 @@ metafile = true
 [[files]]
 file = "mods/ferrite-core.pw.toml"
 hash = "73360e397134d238ee8fd21d33fd7f9275e9441f74f8f1b6ed92278877c0b9f1"
+metafile = true
+
+[[files]]
+file = "mods/globalpacks.pw.toml"
+hash = "a7f2ae8ea415e95ce1a3518b66edcaf124d8903ff9101d07331f7fec92b3400f"
 metafile = true
 
 [[files]]
@@ -199,7 +374,12 @@ metafile = true
 
 [[files]]
 file = "mods/modernfix.pw.toml"
-hash = "e152bb9ae171e9f34c406bbc29dc36c8d8def9d8f913e1a1bbf82bd63d4e8da9"
+hash = "6c600fe7b0789b7501968f57bb33b526e8c711dc6305f64b406abccfbdb971d5"
+metafile = true
+
+[[files]]
+file = "mods/moogs-structure-lib.pw.toml"
+hash = "509c8fef9e91da5abc8585f26c8bc52c4ceb2400752b70f76c1b66adde3db233"
 metafile = true
 
 [[files]]
@@ -210,6 +390,11 @@ metafile = true
 [[files]]
 file = "mods/mouse-tweaks.pw.toml"
 hash = "6bc414cc0f2d4c078fe83f384d786343f701f371d657c5279b5b0df1595804bd"
+metafile = true
+
+[[files]]
+file = "mods/mss-moogs-soaring-structures.pw.toml"
+hash = "c22c78475e85428d15f97cb5041fe302b225e6599b06897a17051610b53e1a23"
 metafile = true
 
 [[files]]
@@ -254,7 +439,7 @@ metafile = true
 
 [[files]]
 file = "mods/sable.pw.toml"
-hash = "735f0a8e564e8c80c282a7ba97fe77c34edec0402883f7154fd0206572537afe"
+hash = "25b5dfb19a7b9fc82bd8ee5d78ea02c122edbe9ca45a06020345cce03e1d8048"
 metafile = true
 
 [[files]]

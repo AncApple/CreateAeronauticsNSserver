@@ -1,0 +1,16 @@
+{
+  "hooks": {
+    "PostToolUse": [
+      {
+        "matcher": "Write|Edit",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python3 /mnt/d/work/minecraft/CreateAeronauticsPack/.claude/hooks/sync_datapack_zip.py",
+            "statusMessage": "ZIPを更新中..."
+          }
+        ]
+      }
+    ]
+  }
+}

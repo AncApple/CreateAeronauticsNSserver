@@ -2,11 +2,11 @@ hash-format = "sha256"
 
 [[files]]
 file = "defaultconfigs/datapacks/aerial-near-spawn/data/create_sky_village/worldgen/structure_set/highwind_village.json"
-hash = "57d00647cab7ff192ca631dd7a6628e60a1778e8b5e629de9413d88b3104eb92"
+hash = "1957b97218034024b0a700e73266917c48e6c8cea4a9c8a41e39ea1e58110caf"
 
 [[files]]
 file = "defaultconfigs/datapacks/aerial-near-spawn/data/create_sky_village/worldgen/structure_set/skyvillage.json"
-hash = "bc4edb274a6b29892a18a0bcd1a39fc75c26c69f2ad52df33e07ceba96a9b580"
+hash = "6c5e4eddf66009af18b0adfe3a2b67e6efc2dc53a2bee4b136fb8bc273692a69"
 
 [[files]]
 file = "defaultconfigs/datapacks/aerial-near-spawn/data/mss/worldgen/structure_set/arena.json"
@@ -150,7 +150,7 @@ hash = "574a500bf5c19e26ee8f717d64399e91a9d443764f5d8f23806bc44d2521d9ae"
 
 [[files]]
 file = "defaultconfigs/datapacks/aerial-near-spawn/data/skyvillages/worldgen/structure_set/skyvillage.json"
-hash = "134a02ecc20f92b01793356569ac69047b1394ab88fb6776ab5e30295b1e07ea"
+hash = "80fac1b80a27b99344ac9f657e18060f086f902eb0429c4ffa6adf83b88e5ed0"
 
 [[files]]
 file = "defaultconfigs/datapacks/aerial-near-spawn/pack.mcmeta"
@@ -162,7 +162,7 @@ hash = "90dfc662517d67944e114f3ae996ecae6fd86f24be5986efbc35fdd36a6d303c"
 
 [[files]]
 file = "global_packs/required_data/aerial-near-spawn.zip"
-hash = "9b10f89503d592fba9308f1c9f41ef52dc4aeb76b25b242458130d3ffe6de388"
+hash = "aa46994c74713223f18915649ab48bed0d2cd8cdabf15490589f941ad7c46946"
 
 [[files]]
 file = "kubejs/client_scripts/hide_jei.js"

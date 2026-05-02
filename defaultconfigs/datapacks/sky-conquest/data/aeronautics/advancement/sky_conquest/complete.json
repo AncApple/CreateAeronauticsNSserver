@@ -1,0 +1,40 @@
+{
+  "display": {
+    "icon": { "id": "minecraft:nether_star" },
+    "title": { "text": "空の覇者" },
+    "description": { "text": "空中に浮かぶ5つの大型構造物をすべて踏破した" },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "aeronautics:sky_conquest/root",
+  "criteria": {
+    "arena": {
+      "trigger": "minecraft:location",
+      "conditions": { "player": { "location": { "structures": "mss:arena" } } }
+    },
+    "castle_ruin": {
+      "trigger": "minecraft:location",
+      "conditions": { "player": { "location": { "structures": "mss:castle_ruin" } } }
+    },
+    "castle_tower": {
+      "trigger": "minecraft:location",
+      "conditions": { "player": { "location": { "structures": "mss:castle_tower" } } }
+    },
+    "large_tower": {
+      "trigger": "minecraft:location",
+      "conditions": { "player": { "location": { "structures": "mss:large_tower" } } }
+    },
+    "volcano": {
+      "trigger": "minecraft:location",
+      "conditions": { "player": { "location": { "structures": "mss:volcano" } } }
+    }
+  },
+  "requirements": [
+    ["arena"],
+    ["castle_ruin"],
+    ["castle_tower"],
+    ["large_tower"],
+    ["volcano"]
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "display": {
+    "icon": { "id": "minecraft:chiseled_stone_bricks" },
+    "title": { "text": "大塔" },
+    "description": { "text": "空中大塔を発見した" },
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "aeronautics:sky_conquest/root",
+  "criteria": {
+    "visit": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": { "structures": "mss:large_tower" }
+        }
+      }
+    }
+  }
+}

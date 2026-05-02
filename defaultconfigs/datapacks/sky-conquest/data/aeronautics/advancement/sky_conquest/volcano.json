@@ -1,0 +1,20 @@
+{
+  "display": {
+    "icon": { "id": "minecraft:magma_block" },
+    "title": { "text": "空中火山" },
+    "description": { "text": "空中火山を発見した" },
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "aeronautics:sky_conquest/root",
+  "criteria": {
+    "visit": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": { "structures": "mss:volcano" }
+        }
+      }
+    }
+  }
+}

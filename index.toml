@@ -157,12 +157,48 @@ file = "defaultconfigs/datapacks/aerial-near-spawn/pack.mcmeta"
 hash = "257d528ae963d5bfe1cd57ccb6c9c54acd9efa1d2dede1675c611e2d6e7a68c8"
 
 [[files]]
+file = "defaultconfigs/datapacks/sky-conquest/data/aeronautics/advancement/sky_conquest/arena.json"
+hash = "087f447745742de3141d7d405f8de5bfb389aeb5b341b0a4d50addc21abe1e23"
+
+[[files]]
+file = "defaultconfigs/datapacks/sky-conquest/data/aeronautics/advancement/sky_conquest/castle_ruin.json"
+hash = "109c75d6a22c1cc3e74131cfd22edd409b123377f05f8f0e178684dfaa0cf822"
+
+[[files]]
+file = "defaultconfigs/datapacks/sky-conquest/data/aeronautics/advancement/sky_conquest/castle_tower.json"
+hash = "237a855cf5b6c49d9b76bf793f59f91c499fb1029e691ae16bfe9140081dcc3a"
+
+[[files]]
+file = "defaultconfigs/datapacks/sky-conquest/data/aeronautics/advancement/sky_conquest/complete.json"
+hash = "27b2e527d794920ae56c6cee6a0e9f256d94c8ead2dd5305a30c6359f885b00d"
+
+[[files]]
+file = "defaultconfigs/datapacks/sky-conquest/data/aeronautics/advancement/sky_conquest/large_tower.json"
+hash = "6886d3ec57240fd8a0f6ff69c2757c08056da86d0ccf2283ad3ec8fa3af0ffc2"
+
+[[files]]
+file = "defaultconfigs/datapacks/sky-conquest/data/aeronautics/advancement/sky_conquest/root.json"
+hash = "6e02b6999daba5df055650a2e864d66d065cab46b4905776c51d9f7539116f76"
+
+[[files]]
+file = "defaultconfigs/datapacks/sky-conquest/data/aeronautics/advancement/sky_conquest/volcano.json"
+hash = "3a6fbc74cd1a3325b5d069c6770e0d9ae4b4f29d6ef5f15a824968d6ac0f501b"
+
+[[files]]
+file = "defaultconfigs/datapacks/sky-conquest/pack.mcmeta"
+hash = "2d7b7b235c507faf08861ea0bacfc6e2becf71b89745a1810d2a8a82fd25af56"
+
+[[files]]
 file = "defaultconfigs/sophisticatedbackpacks-server.toml"
 hash = "90dfc662517d67944e114f3ae996ecae6fd86f24be5986efbc35fdd36a6d303c"
 
 [[files]]
 file = "global_packs/required_data/aerial-near-spawn.zip"
 hash = "aa46994c74713223f18915649ab48bed0d2cd8cdabf15490589f941ad7c46946"
+
+[[files]]
+file = "global_packs/required_data/sky-conquest.zip"
+hash = "e5227f413a5574d278a9ec2a2b5bba0459202f86ee6dcdd9cdd4b185d2b8356e"
 
 [[files]]
 file = "kubejs/client_scripts/hide_jei.js"
@@ -350,6 +386,16 @@ metafile = true
 [[files]]
 file = "mods/lithostitched.pw.toml"
 hash = "43908d26ef77cc78e08ba2edae2ca63a56d7da415ff48c61e485c46edeacefeb"
+metafile = true
+
+[[files]]
+file = "mods/lootjs.pw.toml"
+hash = "9b32e1374a3d85ccdd4803c8932f72fbeb6357e69d895980e3f24e1974a07ca6"
+metafile = true
+
+[[files]]
+file = "mods/lootr.pw.toml"
+hash = "114b4f1097f17b916cc5df3334aa57e34c6f4a108b87cb911e29134dd5ff980d"
 metafile = true
 
 [[files]]

@@ -1,0 +1,20 @@
+{
+  "display": {
+    "icon": { "id": "minecraft:shield" },
+    "title": { "text": "闘技場" },
+    "description": { "text": "空中闘技場を発見した" },
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "aeronautics:sky_conquest/root",
+  "criteria": {
+    "visit": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": { "structures": "mss:arena" }
+        }
+      }
+    }
+  }
+}

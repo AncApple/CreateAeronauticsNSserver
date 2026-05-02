@@ -1,0 +1,20 @@
+{
+  "display": {
+    "icon": { "id": "minecraft:stone_bricks" },
+    "title": { "text": "城塔" },
+    "description": { "text": "空中城塔を発見した" },
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "aeronautics:sky_conquest/root",
+  "criteria": {
+    "visit": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": { "structures": "mss:castle_tower" }
+        }
+      }
+    }
+  }
+}

@@ -214,6 +214,11 @@ hash = "82becc6910845ae1a68884e6f7a3dcdc861d79a087ae81b1d7e120e82884372d"
 metafile = true
 
 [[files]]
+file = "mods/aetherial-islands.pw.toml"
+hash = "07735cfeaea8f9d4532a6ca653fa3b4fc83ed2d7f16fff96ac2741a8c37f12a8"
+metafile = true
+
+[[files]]
 file = "mods/appleskin.pw.toml"
 hash = "716d930feff599bf9ce732e05979fbae8025dc8a3c13ccf4f1cb207a70883bc6"
 metafile = true
@@ -221,6 +226,11 @@ metafile = true
 [[files]]
 file = "mods/architectury-api.pw.toml"
 hash = "ea336d25c3e21ef168aec20e1ea470c96949ad29632646ee8e8ab0d74b4bbfc9"
+metafile = true
+
+[[files]]
+file = "mods/attack-through-grass.pw.toml"
+hash = "d5d346b7e160ce251bb20d66f80e7b2188a7da5e6cf3b0e42ec353543077db5d"
 metafile = true
 
 [[files]]
@@ -236,6 +246,11 @@ metafile = true
 [[files]]
 file = "mods/bridging-mod.pw.toml"
 hash = "c50696cd98b02ba03425574c7850443f5cba8e097af4b6ae1c8b42bd5316a8eb"
+metafile = true
+
+[[files]]
+file = "mods/carry-on.pw.toml"
+hash = "c5e47d922e39c1556dc2e8c94bfe852cf16de14f65b99eb3e054e41745dddad0"
 metafile = true
 
 [[files]]
@@ -276,6 +291,11 @@ metafile = true
 [[files]]
 file = "mods/create-dynamic-lights.pw.toml"
 hash = "56ff7fa56eb6ae7d32cdd1f7ce84022d1ed25b416dd9142572ef0d2360d49ec9"
+metafile = true
+
+[[files]]
+file = "mods/create-item-drawers.pw.toml"
+hash = "325c491d7bfe66ec0d5fa607d011fa0e6cc21962fec0fba0204f2b579fd8c0bb"
 metafile = true
 
 [[files]]
@@ -326,11 +346,6 @@ metafile = true
 [[files]]
 file = "mods/globalpacks.pw.toml"
 hash = "a7f2ae8ea415e95ce1a3518b66edcaf124d8903ff9101d07331f7fec92b3400f"
-metafile = true
-
-[[files]]
-file = "mods/gravestone-mod.pw.toml"
-hash = "2ac1df7fad83d36e69b4aaad32f0b952c9b039d7345592bb66934f40a8606224"
 metafile = true
 
 [[files]]
@@ -486,6 +501,11 @@ metafile = true
 [[files]]
 file = "mods/shulkerboxtooltip.pw.toml"
 hash = "0bef7b3dd4758a661d3e6827bd390c12ff8a3ede4a66bb2e01e3c760f02bd509"
+metafile = true
+
+[[files]]
+file = "mods/simple-tomb.pw.toml"
+hash = "d153139321c19e4bea1b8097aacc59a64648addeb3e4bc6b473ca2b3dff82cf1"
 metafile = true
 
 [[files]]

@@ -1,0 +1,13 @@
+name = "Create: Item Drawers"
+filename = "create_item_drawers-mc1.21.1+1.2.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/3H1Rxv8i/versions/j43p4T6d/create_item_drawers-mc1.21.1%2B1.2.1.jar"
+hash-format = "sha512"
+hash = "8d9628fe30ed12b9b0b2bac6d901a2bde418cfabfa3adb0e1737aefed5d1c3fdc28d7004f2ead75b69662159fbf531ca691970e1dd07328aef2932b867c3227c"
+
+[update]
+[update.modrinth]
+mod-id = "3H1Rxv8i"
+version = "j43p4T6d"
